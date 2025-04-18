@@ -50,9 +50,6 @@ importers:
       '@capacitor/status-bar':
         specifier: 7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
-      '@capawesome/capacitor-android-edge-to-edge-support':
-        specifier: ^7.1.0
-        version: 7.1.0(@capacitor/core@7.2.0)
       '@ionic/angular':
         specifier: ^8.0.0
         version: 8.5.5(0081ff919498760df9bd32be1259a295)
@@ -911,11 +908,6 @@ packages:
 
   '@capacitor/status-bar@7.0.1':
     resolution: {integrity: sha512-iDv3mXYo9CdxYRVwt3/pRyuk25p7Sn4GfaS/zMZyVIqTzsvKLCIIH3GdKK+ta+nsNcAVpCw/t5jFEBt1D18ctA==}
-    peerDependencies:
-      '@capacitor/core': '>=7.0.0'
-
-  '@capawesome/capacitor-android-edge-to-edge-support@7.1.0':
-    resolution: {integrity: sha512-VHPK90xA/lYkuB2fCOyfnO2PJLxMqzaulZmwiC+78JJWmfOePWvlzrvfEscTCjnoPrNgsA+9sDcEeGEZDG0z5w==}
     peerDependencies:
       '@capacitor/core': '>=7.0.0'
 
@@ -6355,10 +6347,6 @@ snapshots:
       '@capacitor/core': 7.2.0
 
   '@capacitor/status-bar@7.0.1(@capacitor/core@7.2.0)':
-    dependencies:
-      '@capacitor/core': 7.2.0
-
-  '@capawesome/capacitor-android-edge-to-edge-support@7.1.0(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
 
