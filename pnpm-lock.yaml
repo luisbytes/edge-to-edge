@@ -32,6 +32,9 @@ importers:
       '@angular/router':
         specifier: ^19.0.0
         version: 19.2.7(@angular/common@19.2.7(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0))(@angular/platform-browser@19.2.7(@angular/animations@19.2.7(@angular/common@19.2.7(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0)))(@angular/common@19.2.7(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0))(rxjs@7.8.2))(@angular/core@19.2.7(rxjs@7.8.2)(zone.js@0.15.0)))(rxjs@7.8.2)
+      '@capacitor/android':
+        specifier: ^7.2.0
+        version: 7.2.0(@capacitor/core@7.2.0)
       '@capacitor/app':
         specifier: 7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
@@ -47,6 +50,9 @@ importers:
       '@capacitor/status-bar':
         specifier: 7.0.1
         version: 7.0.1(@capacitor/core@7.2.0)
+      '@capawesome/capacitor-android-edge-to-edge-support':
+        specifier: ^7.1.0
+        version: 7.1.0(@capacitor/core@7.2.0)
       '@ionic/angular':
         specifier: ^8.0.0
         version: 8.5.5(0081ff919498760df9bd32be1259a295)
@@ -875,6 +881,11 @@ packages:
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
 
+  '@capacitor/android@7.2.0':
+    resolution: {integrity: sha512-zdhEy3jZPG5Toe/pGzKtDgIiBGywjaoEuQWnGVjBYPlSAEUtAhpZ2At7V0SCb26yluAuzrAUV0Ue+LQeEtHwFQ==}
+    peerDependencies:
+      '@capacitor/core': ^7.2.0
+
   '@capacitor/app@7.0.1':
     resolution: {integrity: sha512-ArlVZAAla4MwQoKh26x2AaTDOBh5Vhp1VhMKR3RwqZSsZnazKTFGNrPbr9Ez5r1knnEDfApyjwp1uZnXK1WTYQ==}
     peerDependencies:
@@ -900,6 +911,11 @@ packages:
 
   '@capacitor/status-bar@7.0.1':
     resolution: {integrity: sha512-iDv3mXYo9CdxYRVwt3/pRyuk25p7Sn4GfaS/zMZyVIqTzsvKLCIIH3GdKK+ta+nsNcAVpCw/t5jFEBt1D18ctA==}
+    peerDependencies:
+      '@capacitor/core': '>=7.0.0'
+
+  '@capawesome/capacitor-android-edge-to-edge-support@7.1.0':
+    resolution: {integrity: sha512-VHPK90xA/lYkuB2fCOyfnO2PJLxMqzaulZmwiC+78JJWmfOePWvlzrvfEscTCjnoPrNgsA+9sDcEeGEZDG0z5w==}
     peerDependencies:
       '@capacitor/core': '>=7.0.0'
 
@@ -6296,6 +6312,10 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
+  '@capacitor/android@7.2.0(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
   '@capacitor/app@7.0.1(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
@@ -6335,6 +6355,10 @@ snapshots:
       '@capacitor/core': 7.2.0
 
   '@capacitor/status-bar@7.0.1(@capacitor/core@7.2.0)':
+    dependencies:
+      '@capacitor/core': 7.2.0
+
+  '@capawesome/capacitor-android-edge-to-edge-support@7.1.0(@capacitor/core@7.2.0)':
     dependencies:
       '@capacitor/core': 7.2.0
 
